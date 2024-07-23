@@ -71,7 +71,7 @@ const Home = () => {
                 <time>{card.title}</time>
                 <div>
                   <h1>{card.subTitle}</h1>
-                  <p>{card.description}</p>
+                  <p>{card.portion}</p>
                 </div>
                 <div>
                   <button
@@ -97,9 +97,14 @@ const Home = () => {
             }`}
             onClick={(e) => e.stopPropagation()}
           >
-            <img src={popupContent.img} className="detail-img" alt="" />
-            <h2>{popupContent.activity}</h2>
-            <p>{popupContent.detail}</p>
+            <div className="detail-img-container">
+              <img src={popupContent.img} className="detail-img" alt="" />
+              <div className="fade-bottom"></div>
+            </div>
+            <div className="text">
+              <h2>{popupContent.activity}</h2>
+              <div dangerouslySetInnerHTML={{ __html: popupContent.detail }} />
+            </div>
             <button className="button-55" onClick={closePopup}>
               Close
             </button>
