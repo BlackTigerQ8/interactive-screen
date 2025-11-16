@@ -1,0 +1,116 @@
+{
+  "infiniteMenuItems": [
+    {
+      "image": "https://picsum.photos/900/900?grayscale",
+      "link": "https://google.com/",
+      "title": "Northern Oil Fields",
+      "description": "Legacy oil lakes and heavily contaminated soil under remediation."
+    },
+    {
+      "image": "https://picsum.photos/900/900?grayscale?2",
+      "link": "https://google.com/",
+      "title": "Southern Oil Fields",
+      "description": "Remediation activities near active KOC production facilities."
+    },
+    {
+      "image": "https://picsum.photos/900/900?grayscale?3",
+      "link": "https://google.com/",
+      "title": "Landfills",
+      "description": "Engineered landfill cells for safe long-term containment."
+    },
+    {
+      "image": "https://picsum.photos/900/900?grayscale?4",
+      "link": "https://google.com/",
+      "title": "Water",
+      "description": "Treatment of oily water and reuse in accordance with regulations."
+    }
+  ],
+  "kerpSections": {
+    "Northern Oil Fields": {
+      "title": "Northern Oil Fields \u2013 Legacy Oil Lakes",
+      "area": "North Kuwait",
+      "role": "Heavy oil-contaminated soil remediation",
+      "headline": "Transforming large legacy oil lakes into safe, usable desert land.",
+      "description": "During the 1990\u20131991 conflict, well fires and uncontrolled releases created extensive oil lakes and contaminated soil in the northern fields. Under KERP, these areas are surveyed, excavated, treated and verified to meet strict remediation criteria before being handed back to KOC.",
+      "metrics": [
+        { "label": "Area Addressed", "value": "\u2248 30\u201335 km\u00b2" },
+        { "label": "Soil Treated", "value": "\u2248 4\u20135 million m\u00b3" },
+        { "label": "Treatment Zones", "value": "50+ major zones" }
+      ],
+      "focus": [
+        "Excavation and segregation of heavily contaminated soil",
+        "Thermal desorption, bioremediation and soil washing where applicable",
+        "On-site laboratories verifying Total Petroleum Hydrocarbon (TPH) criteria"
+      ]
+    },
+    "Southern Oil Fields": {
+      "title": "Southern Oil Fields \u2013 Remediation Near Operations",
+      "area": "South & West Kuwait",
+      "role": "Remediation in and around active production facilities",
+      "headline": "Working side\u2011by\u2011side with live production to restore the environment safely.",
+      "description": "In the south, many contaminated areas are close to active gathering centers, pipelines and wellheads. Remediation here is planned in coordination with ongoing KOC operations to maintain production while progressively cleaning the impacted land.",
+      "metrics": [
+        { "label": "Operating Sites", "value": "20+ facilities" },
+        { "label": "Work Fronts", "value": "Multiple concurrent crews" },
+        { "label": "Lost Time Incidents", "value": "Target: 0 LTI" }
+      ],
+      "focus": [
+        "Interface management with KOC operations and HSE teams",
+        "Traffic, access and permit-to-work planning",
+        "Continuous air, noise and dust monitoring around sensitive receptors"
+      ]
+    },
+    "Landfills": {
+      "title": "Engineered Landfills \u2013 Long-Term Containment",
+      "area": "Designated remediation support areas",
+      "role": "Safe containment of non-treatable contaminated materials",
+      "headline": "Engineered cells designed for safe, monitored long-term storage.",
+      "description": "Some highly contaminated materials or debris cannot be economically treated. These streams are placed in engineered landfill cells built to international standards, including multi-layer liners, leachate collection and long-term monitoring.",
+      "metrics": [
+        { "label": "Landfill Cells", "value": "10\u201115 engineered cells" },
+        { "label": "Design Life", "value": "\u2265 30 years" },
+        { "label": "Monitoring Wells", "value": "Dozens of wells for inspection" }
+      ],
+      "focus": [
+        "Construction QA/QC for liner systems and leachate collection",
+        "Placement, compaction and capping of wastes",
+        "Routine inspection, monitoring and reporting to stakeholders"
+      ]
+    },
+    "Water": {
+      "title": "Water Management \u2013 Oily Water Treatment",
+      "area": "Across remediation treatment areas",
+      "role": "Handling and treating oily water generated during remediation",
+      "headline": "Turning oily water from a waste stream into a managed resource.",
+      "description": "Excavation and treatment activities can generate oily water from dewatering and washing processes. Dedicated units separate, treat and, where approved, reuse water in line with Kuwaiti environmental regulations and KOC requirements.",
+      "metrics": [
+        { "label": "Water Treated", "value": "\u2248 1+ million m\u00b3" },
+        { "label": "Reuse Rate", "value": "50\u201170% depending on quality" },
+        { "label": "Treatment Units", "value": "Multiple modular systems" }
+      ],
+      "focus": [
+        "Primary oil\u2011water separation and skimming",
+        "Filtration and polishing steps to meet reuse or discharge criteria",
+        "Sampling, laboratory testing and regulatory reporting"
+      ]
+    },
+    "Laboratories": {
+      "title": "Laboratories & Monitoring \u2013 Evidence-Based Decisions",
+      "area": "On-site field labs and central facilities",
+      "role": "Verification of soil and water quality",
+      "headline": "Every handover decision backed by laboratory analysis.",
+      "description": "KERP relies on extensive sampling to confirm remediation success. Field and central laboratories analyze soil and water samples for hydrocarbons and other parameters, ensuring that treated areas meet agreed criteria before closure.",
+      "metrics": [
+        { "label": "Samples Analyzed", "value": "Tens of thousands of soil samples" },
+        { "label": "Parameters per Sample", "value": "Dozens of analytes" },
+        { "label": "QA/QC Compliance", "value": "> 99% within control limits" }
+      ],
+      "focus": [
+        "Rapid screening tests to support daily field decisions",
+        "Full laboratory analysis for compliance and verification",
+        "Joint review of results with KOC and independent reviewers"
+      ]
+    }
+  }
+}
+
