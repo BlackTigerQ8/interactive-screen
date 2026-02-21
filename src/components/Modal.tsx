@@ -23,14 +23,9 @@ const KERP_SECTIONS: Record<string, KerpSectionContent> =
 export interface KerpModalProps {
   item: MenuItem;
   onClose: () => void;
-  onOpenLink: () => void;
 }
 
-const KerpFullScreenModal: FC<KerpModalProps> = ({
-  item,
-  onClose,
-  onOpenLink,
-}) => {
+const KerpFullScreenModal: FC<KerpModalProps> = ({ item, onClose }) => {
   const section = KERP_SECTIONS[item.title] ?? {
     title: item.title || "Kuwait Environmental Remediation Program (KERP)",
     area: "Kuwait Oil Company (KOC) areas",
