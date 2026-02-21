@@ -1,116 +1,121 @@
 {
   "infiniteMenuItems": [
     {
-      "image": "https://picsum.photos/900/900?grayscale",
-      "link": "https://google.com/",
-      "title": "Northern Oil Fields",
-      "description": "Legacy oil lakes and heavily contaminated soil under remediation."
+      "image": "/assets/et2.jpg",
+      "link": "#",
+      "title": "Excavation Progress",
+      "description": "Status of soil removal across Subareas 4A, 4B, 4C, 4D, and 7B."
     },
     {
-      "image": "https://picsum.photos/900/900?grayscale?2",
-      "link": "https://google.com/",
-      "title": "Southern Oil Fields",
-      "description": "Remediation activities near active KOC production facilities."
+      "image": "/assets/et.jpg",
+      "link": "#",
+      "title": "Logistics & Reintegration",
+      "description": "Movement of 2.27 million tons and restoration of gatch pits."
     },
     {
-      "image": "https://picsum.photos/900/900?grayscale?3",
-      "link": "https://google.com/",
-      "title": "Landfills",
-      "description": "Engineered landfill cells for safe long-term containment."
+      "image": "/assets/bioremediation.jpg",
+      "link": "#",
+      "title": "Treatment Pad Operations",
+      "description": "Biological treatment performance and screening statistics."
     },
     {
-      "image": "https://picsum.photos/900/900?grayscale?4",
-      "link": "https://google.com/",
-      "title": "Water",
-      "description": "Treatment of oily water and reuse in accordance with regulations."
+      "image": "/assets/soil_wash.jpg",
+      "link": "#",
+      "title": "Soil Washing Plant",
+      "description": "Mechanical treatment of high-concentration (7-10% TPH) soil."
+    },
+    {
+      "image": "/assets/landfill.jpg",
+      "link": "#",
+      "title": "Landfill Facility",
+      "description": "Engineered containment and active infilling operations."
     }
   ],
   "kerpSections": {
-    "Northern Oil Fields": {
-      "title": "Northern Oil Fields \u2013 Legacy Oil Lakes",
-      "area": "North Kuwait",
-      "role": "Heavy oil-contaminated soil remediation",
-      "headline": "Transforming large legacy oil lakes into safe, usable desert land.",
-      "description": "During the 1990\u20131991 conflict, well fires and uncontrolled releases created extensive oil lakes and contaminated soil in the northern fields. Under KERP, these areas are surveyed, excavated, treated and verified to meet strict remediation criteria before being handed back to KOC.",
+    "Excavation Progress": {
+      "title": "Excavation Progress \u2013 Key Subareas",
+      "area": "Subareas 4A \u2013 7B",
+      "role": "Soil Removal & Transport",
+      "headline": "100% Completion achieved in Subareas 4E, 3A, and 3B.",
+      "description": "We have declared 100% completion for both DOL and OCP contaminated soils in Subareas 4E, 3A, and 3B. In the remaining sectors, work is accelerating: Subarea 4A is nearing the finish line with 92% DOL completion, while Subarea 4D and 4C are tackling complex contamination layers.",
       "metrics": [
-        { "label": "Area Addressed", "value": "\u2248 30\u201335 km\u00b2" },
-        { "label": "Soil Treated", "value": "\u2248 4\u20135 million m\u00b3" },
-        { "label": "Treatment Zones", "value": "50+ major zones" }
+        { "label": "Subarea 4E/3A/3B", "value": "100% Complete" },
+        { "label": "Subarea 4A (DOL)", "value": "92% Complete" },
+        { "label": "Subarea 4D (OCP)", "value": "70% Complete" }
       ],
       "focus": [
-        "Excavation and segregation of heavily contaminated soil",
-        "Thermal desorption, bioremediation and soil washing where applicable",
-        "On-site laboratories verifying Total Petroleum Hydrocarbon (TPH) criteria"
+        "Completion of Subarea 4A remaining sectors",
+        "Accelerating OCP transport in Subarea 4C (currently 50%)",
+        "Managing complex geology in Subarea 7B"
       ]
     },
-    "Southern Oil Fields": {
-      "title": "Southern Oil Fields \u2013 Remediation Near Operations",
-      "area": "South & West Kuwait",
-      "role": "Remediation in and around active production facilities",
-      "headline": "Working side\u2011by\u2011side with live production to restore the environment safely.",
-      "description": "In the south, many contaminated areas are close to active gathering centers, pipelines and wellheads. Remediation here is planned in coordination with ongoing KOC operations to maintain production while progressively cleaning the impacted land.",
+    "Logistics & Reintegration": {
+      "title": "Logistics & Reintegration \u2013 Closing the Loop",
+      "area": "Site-Wide Logistics",
+      "role": "Transport & Restoration",
+      "headline": "Over 2.2 million tons transported and substantial restoration underway.",
+      "description": "The logistics operation is massive. We have transported over 2.27 million tons of contaminated soil to date. Simultaneously, we are closing the loop by returning treated soil to the earth, specifically filling Gatch Pits 14 and 49 with clean, remediated material.",
       "metrics": [
-        { "label": "Operating Sites", "value": "20+ facilities" },
-        { "label": "Work Fronts", "value": "Multiple concurrent crews" },
-        { "label": "Lost Time Incidents", "value": "Target: 0 LTI" }
+        { "label": "Total Soil Transported", "value": "2,270,057 tons" },
+        { "label": "ENA Stockpile", "value": "544,919 tons" },
+        { "label": "Restored to Gatch Pits", "value": "411,940 tons" }
       ],
       "focus": [
-        "Interface management with KOC operations and HSE teams",
-        "Traffic, access and permit-to-work planning",
-        "Continuous air, noise and dust monitoring around sensitive receptors"
+        "Efficient sorting of ENA vs. Treatment Pad material",
+        "Mixing 1-2% TPH soil into gatch pits (472k tons complete)",
+        "Maintaining transport safety protocols"
       ]
     },
-    "Landfills": {
-      "title": "Engineered Landfills \u2013 Long-Term Containment",
-      "area": "Designated remediation support areas",
-      "role": "Safe containment of non-treatable contaminated materials",
-      "headline": "Engineered cells designed for safe, monitored long-term storage.",
-      "description": "Some highly contaminated materials or debris cannot be economically treated. These streams are placed in engineered landfill cells built to international standards, including multi-layer liners, leachate collection and long-term monitoring.",
+    "Treatment Pad Operations": {
+      "title": "Treatment Pad \u2013 Bioremediation",
+      "area": "Central Treatment Facility",
+      "role": "Biological Soil Treatment",
+      "headline": "100% Success rate for planned 2-to-5% TPH batches.",
+      "description": "The scale of remediation is evident at the pad, where we have screened over 2.7 million tons of soil. Our biological processes are delivering solid results: all 76 planned batches for 2-to-5% TPH soil have successfully achieved the Remediation Target Criteria (RTC).",
       "metrics": [
-        { "label": "Landfill Cells", "value": "10\u201115 engineered cells" },
-        { "label": "Design Life", "value": "\u2265 30 years" },
-        { "label": "Monitoring Wells", "value": "Dozens of wells for inspection" }
+        { "label": "Total Screened", "value": "2,715,652 tons" },
+        { "label": "2-5% TPH Batches", "value": "76 (100% Success)" },
+        { "label": "Active Batches", "value": "15+ under remediation" }
       ],
       "focus": [
-        "Construction QA/QC for liner systems and leachate collection",
-        "Placement, compaction and capping of wastes",
-        "Routine inspection, monitoring and reporting to stakeholders"
+        "Bioremediation of 116,448 tons of 7-10% TPH soil",
+        "Continuous turnover of windrows",
+        "Verification of RTC for Portion 4 Mix batches"
       ]
     },
-    "Water": {
-      "title": "Water Management \u2013 Oily Water Treatment",
-      "area": "Across remediation treatment areas",
-      "role": "Handling and treating oily water generated during remediation",
-      "headline": "Turning oily water from a waste stream into a managed resource.",
-      "description": "Excavation and treatment activities can generate oily water from dewatering and washing processes. Dedicated units separate, treat and, where approved, reuse water in line with Kuwaiti environmental regulations and KOC requirements.",
+    "Soil Washing Plant": {
+      "title": "Soil Washing \u2013 Mechanical Treatment",
+      "area": "Treatment Pad Zone 2",
+      "role": "High Concentration Treatment",
+      "headline": "Phase Two operational: Turning high-TPH soil into clean output.",
+      "description": "The Soil Washing Plant is fully active, handling higher-concentration soils (7-to-10% TPH). This mechanical process allows us to recover clean soil from material that is difficult to treat biologically. We are rapidly increasing the feed rate and output efficiency.",
       "metrics": [
-        { "label": "Water Treated", "value": "\u2248 1+ million m\u00b3" },
-        { "label": "Reuse Rate", "value": "50\u201170% depending on quality" },
-        { "label": "Treatment Units", "value": "Multiple modular systems" }
+        { "label": "Feed Input", "value": "3,117.5 tons" },
+        { "label": "Clean Soil Output", "value": "2,454.5 tons" },
+        { "label": "Recovery Efficiency", "value": "~78%" }
       ],
       "focus": [
-        "Primary oil\u2011water separation and skimming",
-        "Filtration and polishing steps to meet reuse or discharge criteria",
-        "Sampling, laboratory testing and regulatory reporting"
+        "Processing high-concentration 7-10% TPH streams",
+        "Optimizing water recycling and separation",
+        "Ramping up daily throughput"
       ]
     },
-    "Laboratories": {
-      "title": "Laboratories & Monitoring \u2013 Evidence-Based Decisions",
-      "area": "On-site field labs and central facilities",
-      "role": "Verification of soil and water quality",
-      "headline": "Every handover decision backed by laboratory analysis.",
-      "description": "KERP relies on extensive sampling to confirm remediation success. Field and central laboratories analyze soil and water samples for hydrocarbons and other parameters, ensuring that treated areas meet agreed criteria before closure.",
+    "Landfill Facility": {
+      "title": "Landfill Facility \u2013 Containment",
+      "area": "Engineered Landfill Cell",
+      "role": "Disposal & Containment",
+      "headline": "Transitioned from construction to active infilling.",
+      "description": "All major construction activities, including liner installation and drainage systems, are 100% complete. The facility has transitioned to active operations, receiving waste from our excavations as well as our partners Enshaat and Al-Ghanim International.",
       "metrics": [
-        { "label": "Samples Analyzed", "value": "Tens of thousands of soil samples" },
-        { "label": "Parameters per Sample", "value": "Dozens of analytes" },
-        { "label": "QA/QC Compliance", "value": "> 99% within control limits" }
+        { "label": "Construction Status", "value": "100% Complete" },
+        { "label": "Total Infilled", "value": "156,277 tons" },
+        { "label": "Current Status", "value": "Active Operations" }
       ],
       "focus": [
-        "Rapid screening tests to support daily field decisions",
-        "Full laboratory analysis for compliance and verification",
-        "Joint review of results with KOC and independent reviewers"
+        "Safe placement of non-treatable material",
+        "Leachate system monitoring",
+        "Closing out final punch list items"
       ]
     }
   }
 }
-

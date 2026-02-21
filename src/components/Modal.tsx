@@ -1,7 +1,7 @@
-import { motion } from 'framer-motion';
-import type { FC, MouseEvent } from 'react';
-import type { MenuItem } from './InfiniteMenu';
-import content from '../content.json';
+import { motion } from "framer-motion";
+import type { FC, MouseEvent } from "react";
+import type { MenuItem } from "./InfiniteMenu";
+import content from "../content.json";
 
 type KerpSectionContent = {
   title: string;
@@ -26,25 +26,29 @@ export interface KerpModalProps {
   onOpenLink: () => void;
 }
 
-const KerpFullScreenModal: FC<KerpModalProps> = ({ item, onClose, onOpenLink }) => {
+const KerpFullScreenModal: FC<KerpModalProps> = ({
+  item,
+  onClose,
+  onOpenLink,
+}) => {
   const section = KERP_SECTIONS[item.title] ?? {
-    title: item.title || 'Kuwait Environmental Remediation Program (KERP)',
-    area: 'Kuwait Oil Company (KOC) areas',
-    role: 'Environmental remediation of oil-contaminated soil and related impacts',
+    title: item.title || "Kuwait Environmental Remediation Program (KERP)",
+    area: "Kuwait Oil Company (KOC) areas",
+    role: "Environmental remediation of oil-contaminated soil and related impacts",
     headline:
-      'One of the largest environmental remediation programs in the world, restoring land impacted during the 1990–1991 conflict.',
+      "One of the largest environmental remediation programs in the world, restoring land impacted during the 1990–1991 conflict.",
     description:
-      'KERP addresses legacy damage from oil lakes, contaminated soil and related impacts across the Kuwaiti desert. The program combines large‑scale earthworks, treatment technologies, engineered landfills and extensive monitoring to return land to a safe and sustainable condition.',
+      "KERP addresses legacy damage from oil lakes, contaminated soil and related impacts across the Kuwaiti desert. The program combines large‑scale earthworks, treatment technologies, engineered landfills and extensive monitoring to return land to a safe and sustainable condition.",
     metrics: [
-      { label: 'Total Soil Addressed', value: '≈ 25+ million m³' },
-      { label: 'Program Duration', value: 'Multi‑year (≈ decade‑scale)' },
-      { label: 'Stakeholders', value: 'KOC, contractors & regulators' }
+      { label: "Total Soil Addressed", value: "≈ 25+ million m³" },
+      { label: "Program Duration", value: "Multi‑year (≈ decade‑scale)" },
+      { label: "Stakeholders", value: "KOC, contractors & regulators" },
     ],
     focus: [
-      'Survey, design and prioritization of contaminated areas',
-      'Selection and operation of appropriate treatment technologies',
-      'Long‑term environmental monitoring and land restoration'
-    ]
+      "Survey, design and prioritization of contaminated areas",
+      "Selection and operation of appropriate treatment technologies",
+      "Long‑term environmental monitoring and land restoration",
+    ],
   };
 
   return (
@@ -54,7 +58,7 @@ const KerpFullScreenModal: FC<KerpModalProps> = ({ item, onClose, onOpenLink }) 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.25, ease: 'easeOut' }}
+      transition={{ duration: 0.25, ease: "easeOut" }}
     >
       <motion.div
         className="mx-auto my-4 flex min-h-[90vh] w-full max-w-5xl flex-col gap-4 px-3 text-slate-900 sm:my-6 sm:px-4 lg:my-8 lg:max-w-6xl lg:flex-row lg:gap-6"
@@ -62,10 +66,10 @@ const KerpFullScreenModal: FC<KerpModalProps> = ({ item, onClose, onOpenLink }) 
         initial={{ opacity: 0, y: 40, scale: 0.97 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: 40, scale: 0.97 }}
-        transition={{ duration: 0.3, ease: 'easeOut' }}
+        transition={{ duration: 0.3, ease: "easeOut" }}
       >
         {/* Left: large image / visual */}
-        <div className="relative flex-1 min-h-[180px] overflow-hidden rounded-2xl border border-sky-200 bg-sky-50 sm:min-h-[220px] sm:rounded-3xl md:min-h-[260px]">
+        <div className="relative w-full shrink-0 min-h-[220px] overflow-hidden rounded-2xl border border-sky-200 bg-sky-50 sm:min-h-[260px] sm:rounded-3xl md:min-h-[300px] lg:h-auto lg:w-auto lg:flex-1">
           <img
             src={item.image}
             alt={item.title}
@@ -78,7 +82,7 @@ const KerpFullScreenModal: FC<KerpModalProps> = ({ item, onClose, onOpenLink }) 
         </div>
 
         {/* Right: KERP narrative */}
-        <div className="mt-3 flex min-h-[260px] flex-1 flex-col rounded-2xl border border-sky-200 bg-white p-4 shadow-xl sm:mt-4 sm:rounded-3xl sm:p-5 lg:mt-0 lg:p-6">
+        <div className="mt-3 flex w-full flex-col rounded-2xl border border-sky-200 bg-white p-4 shadow-xl sm:mt-4 sm:rounded-3xl sm:p-5 lg:mt-0 lg:w-auto lg:flex-1 lg:p-6">
           <div className="flex items-start justify-between gap-3">
             <div>
               <p className="text-[11px] uppercase tracking-[0.22em] text-sky-600">
@@ -147,7 +151,7 @@ const KerpFullScreenModal: FC<KerpModalProps> = ({ item, onClose, onOpenLink }) 
                 ))}
               </div>
 
-              {item.link && (
+              {/* {item.link && (
                 <button
                   type="button"
                   className="cursor-pointer mt-3 w-full rounded-full bg-sky-600 px-4 py-2 text-[12px] font-semibold text-white hover:bg-sky-500"
@@ -155,7 +159,7 @@ const KerpFullScreenModal: FC<KerpModalProps> = ({ item, onClose, onOpenLink }) 
                 >
                   Open Related Document / Link
                 </button>
-              )}
+              )} */}
             </div>
           </div>
         </div>
@@ -165,5 +169,3 @@ const KerpFullScreenModal: FC<KerpModalProps> = ({ item, onClose, onOpenLink }) 
 };
 
 export default KerpFullScreenModal;
-
-
